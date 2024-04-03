@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:03.04.24
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,9 +24,105 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+developed by:b.sandhiya sree
+reg no:212223220093
+```
+<html>
+   <title> TIME TABLE </title>
+   <body>
+   <center>
+   <img src="/static/logo.png"height="100" width="540">
+<table border="6" bgcolor="cyan" cellspacing="10" cellpadding="10">
+<caption> SLOT TIME TABLE - SANDHIYA (2122230093) </caption>
+
+<tr bgcolor="yellow">
+     <th> Day/Time </th>
+     <th> Monday </th>
+     <th> Tuesday </th>
+     <th> Wednesday </th>
+     <th> Thursday </th>
+     <th> Friday </th> 
+</tr>
+<tr align="center">
+   <th bgcolor="yellow"> 8-10 </th>
+   <td colspan="3"> FREE SLOT</td>
+   <td> PHYSICS </td>
+   <td> CHEMISTRY </td>
+</tr>
+<tr align="center">
+    <th bgcolor="yellow"> 10-12 </th>
+    <td> GER </td>
+    <td> FREE SLOT </td>
+    <td> FWAD </td>
+    <td> FWAD </td>
+    <td> PHY </td>
+</tr>
+<tr align ="center">
+    <th bgcolor="yellow"> 12-1 </th>
+    <td colspan="5" align="center"> LUNCH </td>
+</tr>
+<tr align ="center">
+    <th bgcolor="yellow"> 1-3 </th>
+    <td colspan="2"> FREE SLOT </td>
+    <td> MAT </td>
+    <td> MAT </td>
+    <td> SS </td>
+</tr>
+<tr align ="center">
+    <th bgcolor="yellow"> 3-5 </th>
+    <td colspan="2"> FREE SLOT </td>
+    <td> GER </td>
+    <td> CHE </td>
+    <td> FWAD </td>
+</tr>
+</tr>
+</table>
+<br>
+<table border="7" cellspacing="10" cellpadding="10">
+<tr align="center">
+<th> S.NO. </th>
+<th> Subject Code</th>
+<th> Subject Name </th>
+</tr>
+<tr align="center">
+<td> 1. </td>
+<td> 19AI414 </td>
+<td> Fundamentals of Web Applicaton Development(FWAD) </td>
+</tr>
+<tr align="center">
+<td> 2. </td>
+<td> 19EN612 </td>
+<td> German Basic (GER) </td>
+</tr>
+<tr align="center">
+<td> 3. </td>
+<td> 19PH206 </td>
+<td> Physics for Information Technology (PHY) </td>
+</tr>
+<tr align="center">
+<td> 4. </td>
+<td> 19CY205 </td>
+<td> Principles of Chemistry in Engineering (CHE) </td>
+</tr>
+<tr align="center">
+<td> 5. </td>
+<td> 19MA201 </td>
+<td> Calculus and Matrix Algebra (MAT) </td>
+</tr>
+<tr align="center">
+<td> 6. </td>
+<td> 19EY701 </td>
+<td> Soft Skills (SS) </td>
+</tr>
+
+    </center>
+    </body>
+</html>
+```
 
 
 ## OUTPUT
+![Screenshot 2024-04-03 232839](https://github.com/Sandhniya/slot/assets/151395890/a12204cf-5387-42f1-b4ba-3691c2d2b9d8)
 
 
 ## RESULT
